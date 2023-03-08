@@ -1,0 +1,196 @@
+.dest-main {
+  line-height: 1.428571429;
+  font-family: "UniversLT-Light", serif;
+  color: #1b1b1b;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.dest-container {
+  color: #1b1b1b;
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+  position: relative;
+}
+.dest-sub-container1 {
+  color: #b43838;
+  font-size: 15px;
+  text-align: center;
+}
+.dest-title {
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "BodoniStd-BookItalic", serif;
+  font-style: italic;
+  font-size: 70px;
+  color: #77328b;
+  letter-spacing: -1px;
+  opacity: 1;
+  transform: translateY(0);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition-timing-function: ease;
+  transition-duration: 1.5s;
+}
+.dest-selection-container {
+  font-family: "UniversLT-Light", serif;
+  color: #1b1b1b;
+  font-size: 15px;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+select {
+  font-family: "UniversLT-Light", serif;
+  font-style: italic;
+  color: #77328b;
+  font-size: 20px;
+  position: relative;
+  border: 1px solid rgba(37, 39, 118, 0.2);
+  padding: 19px 30px;
+  width: 55%;
+  text-align: left;
+  border: 1px solid #f1f1f1;
+  background: #ffffff;
+  padding: 15px;
+  margin: 25px 0 0;
+ 
+}
+
+.dest-selection-options{
+  font-family: "BodoniStd-BookItalic", serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: normal;
+  white-space: nowrap;
+  cursor: pointer;
+  float: none;
+  border-radius:0px;
+  overflow-y: auto;
+  min-height: 80px;
+  background-color:transparent;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  color: #77328b;
+
+
+}
+
+
+
+
+span {
+  text-transform: none;
+  font-weight: normal;
+  cursor: pointer;
+  user-select: none;
+  font-family: "BodoniStd-BookItalic", serif;
+  font-size: 20px;
+  color: #252776;
+  white-space: normal;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+}
+.dest-sub-container2 {
+  font-family: "UniversLT-Light", serif;
+  color: #1b1b1b;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  position: relative;
+  min-height: 550px;
+}
+.dest-box {
+
+  font-family: "UniversLT-Light", serif;
+  color: #1b1b1b;
+  font-size: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.srilanka {
+ 
+  font-family: "UniversLT-Light", serif;
+  color: #1b1b1b;
+  font-size: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  z-index: 1;
+}
+.dest-card {
+ 
+  font-family: "UniversLT-Light", serif;
+  color: #1b1b1b;
+  box-sizing: border-box;
+  background: #ffffff;
+  padding: 60px 40px;
+  font-size: 17px;
+  width: 340px;
+  box-shadow: 1px 5px 20px #9a9a9a;
+  position: absolute;
+  right: 0;
+  top: 15%;
+  text-align: left;
+}
+
+h5 {
+  box-sizing: border-box;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "BodoniStd-BookItalic", serif;
+  font-style: italic;
+  color: #77328b;
+  font-size: 30px;
+}
+.dest-card-description {
+  font-family: "UniversLT-Light", serif;
+  color: #1b1b1b;
+  font-size: 17px;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+}
+.dest-card-btn {
+  text-decoration: none;
+  transition: color 0.5s linear;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  padding: 0px 20px 0px 20px;
+  font-family: "BodoniStd-BookItalic", serif;
+  font-size: 20px;
+  border-radius: 0;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #252776;
+}
+.dest-card-btn a {
+  font-family: "BodoniStd-BookItalic", serif;
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  box-sizing: border-box;
+  margin: 10px;
+}

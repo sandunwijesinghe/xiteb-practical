@@ -1,0 +1,118 @@
+.offer-main-container {
+ 
+  font-size: 12px;
+  line-height: 1.25;
+  font-family: "Montserrat", Verdana, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+
+  margin-bottom: 80px;
+  width: 100%;
+}
+.offer-sub-container {
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "PlayfairDisplay", Georgia, Times New Roman, serif;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.offer-items {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  width: 360px;
+  height: 450px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.offer-img {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.offer-img img {
+  vertical-align: middle;
+  width: 100%;
+  height: 175px;
+}
+.offer-img-txt {
+  opacity: 0.86;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 15px 0 0 15px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 5px 5px 5px 10px;
+  color: #000;
+  background: #f4f5f6;
+  background-size: 14px;
+}
+
+.offer-section {
+  font-family: "Montserrat", Verdana, Helvetica, Arial, sans-serif;
+  padding: 0 20px 20px;
+  color: #333;
+}
+
+.offer-type {
+  font-weight: 600;
+  margin-top: 4px;
+
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.offer-title {
+  font-weight: 600;
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+.offer-description {
+  font-weight: 500;
+  margin-top: 6px;
+  height: 54px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+}
+.offer-price{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    flex-grow: 1;
+}
+.highlight{
+    white-space: nowrap;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Montserrat',Verdana,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    
+}
+.offer-details{
+    font-weight: 500;
+    display: inline-block;
+    min-width: 140px;
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #876a20;
+    background-color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+    margin-top: 12px;
+}
