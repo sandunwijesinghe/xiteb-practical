@@ -36,30 +36,27 @@ function Offers() {
         <h2 className="title">Offers</h2>
 
         <div className="content-box">
-         {offers.map(({id,imgUrl,title,description,price})=>( <div id={id} className="offer-items">
-            <div className="offer-img">
-              <img
-                src={imgUrl}
-                alt=""
-              />
-              <p className="offer-img-txt">Member Exclusive</p>
-            </div>
-
-            <div className="offer-section">
-              <p className="offer-type">Rooms & Suites</p>
-              <p className="offer-title">
-              {title}
-              </p>
-              <p className="offer-description">
-               {description}
-              </p>
-              <div className="offer-price">
-                From<span className="highlight">LKR {price}</span> Average Per Night
+          {offers.map(({ id, imgUrl, title, description, price }) => (
+            <div id={id} className="offer-items">
+              <div className="offer-img">
+                <img src={imgUrl} alt="" />
+                <p className="offer-img-txt">Member Exclusive</p>
               </div>
-              <button className="offer-details">View Details</button>
+
+              <div className="offer-section">
+                <p className="offer-type">Rooms & Suites</p>
+                <p className="offer-title">{title}</p>
+                <p className="offer-description">{description}</p>
+                <div className="offer-price">
+                  <div className="offer-price-text">
+                    From  <span className="highlight">LKR {price}</span>Average
+                    Per Night
+                  </div>
+                </div>
+                <button className="offer-details">View Details</button>
+              </div>
             </div>
-          </div>))}
-     
+          ))}
         </div>
       </div>
     </div>
